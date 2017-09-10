@@ -46,3 +46,7 @@ gem 'sqlite3',    group:  [:development, :test]
 #Utilisation de Heroku
 gem 'pg', group: :production
 gem 'rails_12factor', group: :production
+
+#Système d'authentification
+gem 'devise'
+gem 'devise-i18n'
